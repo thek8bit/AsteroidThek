@@ -31,7 +31,7 @@ public class ComportamentoJogador : MonoBehaviour
 
     }
 
-          if (Input.GetKey(KeyCode.A))
+          if (Input.GetKey(KeyCode.A))  
     {
         jogadorRb.rotation -=   rotacao * Time.deltaTime;
 
