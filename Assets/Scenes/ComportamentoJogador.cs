@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ComportamentoJogador : MonoBehaviour
 {
-    public float aceleracao = -3.0f;
+    public float aceleracao = 3.0f;
     public Rigidbody2D jogadorRb;
     public float rotacao = 180.0f;
     public float velocidadeMaxima = 10.0f;
@@ -25,13 +25,13 @@ public class ComportamentoJogador : MonoBehaviour
             jogadorRb.AddForce(direcao, ForceMode2D.Force);
         }
         
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.D))
     {
         jogadorRb.rotation +=   rotacao * Time.deltaTime;
 
     }
 
-          if (Input.GetKey(KeyCode.D))
+          if (Input.GetKey(KeyCode.A))
     {
         jogadorRb.rotation -=   rotacao * Time.deltaTime;
 

@@ -123,32 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &444837723 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 502571542614196758, guid: 06555f68f7a88514d93779db2ba4cd86, type: 3}
-  m_PrefabInstance: {fileID: 502571541837856089}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &444837724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444837723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00ee30070fa1bc74c996e5bd65635fb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  aceleracao: -0.2
-  jogadorRb: {fileID: 444837726}
-  rotacao: 180
-  velocidadeMaxima: 10
---- !u!50 &444837726 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 1319666980588912032, guid: 06555f68f7a88514d93779db2ba4cd86, type: 3}
-  m_PrefabInstance: {fileID: 502571541837856089}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1484921063
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,11 +276,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 502571542614196744, guid: 06555f68f7a88514d93779db2ba4cd86, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.61
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 502571542614196744, guid: 06555f68f7a88514d93779db2ba4cd86, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.69
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 502571542614196744, guid: 06555f68f7a88514d93779db2ba4cd86, type: 3}
       propertyPath: m_LocalPosition.z
@@ -340,6 +314,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 502571542614196745, guid: 06555f68f7a88514d93779db2ba4cd86, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 502571542614196745, guid: 06555f68f7a88514d93779db2ba4cd86, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 502571542614196758, guid: 06555f68f7a88514d93779db2ba4cd86, type: 3}
       propertyPath: m_Name
       value: Jogador
@@ -363,7 +345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7645252537244824546, guid: e029369192f96c84992bb4f73163574a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.14
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 7645252537244824546, guid: e029369192f96c84992bb4f73163574a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -416,7 +398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8322926703204528801, guid: 82397e0117d8ee24ebd9cc0f5829f74d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.41
+      value: -3.27
       objectReference: {fileID: 0}
     - target: {fileID: 8322926703204528801, guid: 82397e0117d8ee24ebd9cc0f5829f74d, type: 3}
       propertyPath: m_LocalPosition.y
