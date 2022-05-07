@@ -36,10 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scenes\ComportamentoJogador.cs" />
-     <Compile Include="Assets\Scenes\Jogador.cs" />
-     <Compile Include="Assets\Scenes\ComportamentoAsteroid.cs" />
-     <Compile Include="Assets\WaveMeteoro.cs" />
+     <Compile Include="Assets\Scripts\ComportamentoJogador.cs" />
+     <Compile Include="Assets\Scripts\ComportamentoAsteroid.cs" />
+     <Compile Include="Assets\Scripts\Jogador.cs" />
+     <Compile Include="Assets\Scripts\WaveMeteoro.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:\Program Files\2020.3.31f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
