@@ -135,5 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   asteroidRb: {fileID: 5360973411271080874}
+  prefabAsteroidMenor: {fileID: 3815107927585444422, guid: 39482ac499349f74680b3dea012de08f, type: 3}
   velocidadeMaxMeteoro: 2
-  pontos: 0
+  projetil: {fileID: 337996995364530025, guid: 1af600bdc31a5ff4cbdd0e745a8af6e7, type: 3}
+  quantidadeFragmentos: 2
